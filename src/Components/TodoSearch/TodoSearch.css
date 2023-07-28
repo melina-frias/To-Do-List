@@ -1,0 +1,29 @@
+.contenedorTodoSearch{
+    display: flex;
+    justify-content: center;
+}
+.TodoSearch {
+    background: transparent;
+    border-radius: 2px;
+    /* border: 2px solid rgb(235, 82, 107); */
+    border: 2px solid  #dd1ae4;
+    margin: 2rem 0;
+    outline: none;
+    height: 64px;
+    width: 55%;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.TodoSearch::placeholder {
+    color: #a5a5a5;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400
+}
+
+.TodoSearch:focus {
+    box-shadow: 5px 5px 5px rgba(213, 99, 228, 0.25)
+}

@@ -1,0 +1,16 @@
+.EmptyTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+    color: #fff;
+    height: auto;
+}
+.check{
+    margin-top: 1.875rem;
+}
+.textoEmptyTodo{
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+}
