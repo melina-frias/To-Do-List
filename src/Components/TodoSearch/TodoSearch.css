@@ -27,3 +27,9 @@
 .TodoSearch:focus {
     box-shadow: 5px 5px 5px rgba(213, 99, 228, 0.25)
 }
+
+@media(max-width:768px){
+    .TodoSearch{
+        width: 90%;
+    }
+}

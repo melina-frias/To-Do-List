@@ -24,3 +24,8 @@
     text-decoration: line-through
 }
 
+@media(max-width:768px){
+    .TodoItem{
+        width: 80%;
+    }
+}
