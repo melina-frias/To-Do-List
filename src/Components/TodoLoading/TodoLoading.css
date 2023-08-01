@@ -47,3 +47,9 @@
       background-color: rgb(33, 148, 241);
     }
   }
+
+  @media(max-width:768px){
+    .loader{
+      width: 50%;
+    }
+  }
